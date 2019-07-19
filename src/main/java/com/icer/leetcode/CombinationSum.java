@@ -8,11 +8,6 @@ import java.util.List;
  * 39. Combination Sum
  */
 public class CombinationSum {
-    public static void main(String[] args) {
-        CombinationSum app = new CombinationSum();
-        List<List<Integer>> lists = app.combinationSum(new int[]{2, 3, 4, 5}, 7);
-        System.out.println(lists);
-    }
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> results = new ArrayList<>();
