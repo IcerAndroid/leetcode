@@ -10,6 +10,8 @@ import java.util.List;
 public class Sum3 {
 
     public static List<List<Integer>> threeSum(int[] nums) {
+        List list;
+        list.get
         Arrays.sort(nums);
         List<List<Integer>> result = new LinkedList<>();
         for (int i = 0; i < nums.length - 2; i++) {

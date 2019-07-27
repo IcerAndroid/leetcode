@@ -4,6 +4,7 @@ package com.icer.leetcode;
  * 53. Maximum Subarray
  * 动态规划
  * maxSubArray(A,i)=A[i]+maxSubArray(A,i-1)>0?maxSubArray(A,i-1):0
+ * 给定一个整数组，找到相加之和最大的连续子数组，返回最大的和
  */
 public class MaximumSubarray {
 

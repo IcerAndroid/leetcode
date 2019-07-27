@@ -5,6 +5,12 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
+/**
+ * 56. Merge Intervals
+ * Input: [[1,3],[2,6],[8,10],[15,18]]
+ * Output: [[1,6],[8,10],[15,18]]
+ * Explanation: Since intervals [1,3] and [2,6] overlaps, merge them into [1,6].
+ */
 public class MergeIntervals {
 
     public int[][] merge(int[][] intervals) {

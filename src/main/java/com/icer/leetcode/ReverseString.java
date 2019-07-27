@@ -1,5 +1,8 @@
 package com.icer.leetcode;
 
+/**
+ * 移动两个指针，不断的做swap交换，最后达到反转字符串
+ */
 public class ReverseString {
     public static String reverseString(String s) {
         char[] word = s.toCharArray();

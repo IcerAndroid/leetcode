@@ -6,6 +6,7 @@ public class LongestSubstring {
 
     /**
      * 3、Longest Substring Without Repeating Characters
+     * 求出最长不重复子字符串
      */
     public static int lengthOfLongestSubstring(String s) {
         if (s.length() == 0) return 0;
