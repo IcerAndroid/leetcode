@@ -15,7 +15,7 @@ public class SortColor {
                 nums[p0++] = temp;
             } else if (nums[curr] == 2) {
                 int temp = nums[curr];
-                nums[curr++] = nums[p1];
+                nums[curr] = nums[p1];
                 nums[p1--] = temp;
             } else {
                 curr++;
