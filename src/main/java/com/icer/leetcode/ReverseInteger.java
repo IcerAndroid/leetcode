@@ -1,7 +1,7 @@
 package com.icer.leetcode;
 
 public class ReverseInteger {
-    public int reverse(int x) {
+    public int reverse(int x) {//1234
         int reverse = 0;
         while (x != 0) {
             int temp = reverse * 10 + x % 10;
