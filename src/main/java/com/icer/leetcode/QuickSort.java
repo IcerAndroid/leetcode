@@ -3,7 +3,7 @@ package com.icer.leetcode;
 public class QuickSort {
 
     public static void main(String[] args) {
-        int[] arr = { 49, 38, 65, 97, 23, 22, 76, 1, 5, 8, 2, 0, -1, 22 };
+        int[] arr = { 5,1,3,2,7,6 };
         quickSort(arr, 0, arr.length - 1);
         System.out.println("排序后:");
         for (int i : arr) {

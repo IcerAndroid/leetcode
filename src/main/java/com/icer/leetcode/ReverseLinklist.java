@@ -2,6 +2,7 @@ package com.icer.leetcode;
 
 public class ReverseLinklist {
     public ListNode reverseKGroup(ListNode head, int k) {
+        //1->2->3->4->5
         ListNode begin;
         if (head == null || head.next == null || k == 1)
             return head;
